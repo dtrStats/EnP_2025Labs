@@ -32,12 +32,64 @@ Testing
 
 ### Roles and Responsibility
 
+<<<<<<< HEAD
 | Name                   | Responsibilities                            |
 |------------------------|---------------------------------------------|
 | Chris Gowdy            | Coding (Data cleaning), cleans scripts      |
 | Takeshi Stormer        | Kanban board, Coordination, Report Review   |
 | Khloud Zamzami         | Report writing, EDA and visualizations      |
 | Esther Toobian         | Summarizes findings, EDA and visualizations |
+=======
+| Role                   | Name     | Responsibilities                       |
+|------------------------|----------|----------------------------------------|
+| Project Manager        | Takeshi  | Coordinates work, updates board        |
+| Data Engineer          |          | Manages data imports, cleaning scripts |
+| Data Scientist         |  Esther  | Conducts EDA, visualization            |
+| Analyst / Communicator |          | Summarizes findings, writes reports    |
+
+Takeshi Stormer
+Esther Toobian
+Chris Gowdy
+Khloud  ???
+
+
+Takeshi:
+ - Coding --> software engineering
+ - Main Board Update Coordinator
+ 
+ 
+
+
+Team Coordination:
+   - Kanban Board Updates:  Takeshi
+   - Meeting Schedule Coordinator
+       - Look up scheduling software
+    
+
+Data Managing:
+  - Feature 
+  # 
+  
+  - Data Import
+  - Data Cleaning A
+  - Feature Selection
+  - Data Cleaning b
+  - EDA & Visualizations
+
+
+    
+Results & Reports:
+  - Clean Scripts
+  - Git READMEs
+  - Report writing 
+      - Summarize Findings/Interpretation of Results
+      - Initial Drafts   ->  Delegated Portions
+      - Editting
+
+
+
+
+>>>>>>> b9b7743 (Notes from initial meeting (10/30))
 
 ### Collaboration Policies
 
