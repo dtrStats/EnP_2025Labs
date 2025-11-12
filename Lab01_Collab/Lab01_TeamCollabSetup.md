@@ -34,17 +34,6 @@ Testing
 
 ### Roles & Responsibilities
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-| Name            | Role(s)                              | Responsibilities |
-|----------------|------------------------------------|------------------|
-| Takeshi Stormer | Data Analyst, Board Coordinator   | Kanban updates, task tracking,  Report Writing |
-| Esther Toobian  | Data Scientist                    | Data imports, EDA, visualizations, analysis, notebook reproducibility (READMEs, ) |
-| Chris Gowdy     | Data Engineer                     | Data Cleaning, Cleaning scripts, pipeline prep, data dictionary |
-| Khloud Zamzami  | Analyst / Communicator            | Report writing, insight summaries, client memo drafts |
-=======
 | Name | Role | Responsibilities |
 |------|------|------------------|
 | Takeshi | Kanban Board Coordinator + Technical Contributor + Dataset Preparation | Maintain and update the Kanban board based on team decisions; Assist with data processing, modeling, and coding tasks; Prepare clean dataset for client |
@@ -71,7 +60,6 @@ Testing
   - Disagreements resolve toward the option that moves progress forward while meeting requirements
 
 ---
->>>>>>> a887644 (Created a full team charter.)
 
 
 ### Communication & Meeting Expectations
@@ -87,54 +75,12 @@ Testing
 
 **Meeting Expectations**
 
-<<<<<<< HEAD
-
-
-
-
-
-
-
-#############################################################################
-INITIAL DRAFTS/NOTES:
-
->>>>>>> 5153371 (More notes on team roles, added to collaboration policies, communication, and rituals sections)
-| Name                   | Responsibilities                            |
-|------------------------|---------------------------------------------|
-| Chris Gowdy            | Coding (Data cleaning), cleans scripts      |
-| Takeshi Stormer        | Kanban board, Coordination, Report Review   |
-| Khloud Zamzami         | Report writing, EDA and visualizations      |
-| Esther Toobian         | Summarizes findings, EDA and visualizations |
-=======
-| Role                   | Name     | Responsibilities                       |
-|------------------------|----------|----------------------------------------|
-| Project Manager        | Takeshi  | Coordinates work, updates board        |
-| Data Engineer          |          | Manages data imports, cleaning scripts |
-| Data Scientist         |  Esther  | Conducts EDA, visualization            |
-| Analyst / Communicator |          | Summarizes findings, writes reports    |
-
-Takeshi:
- - Coding --> software engineering
- - Main Board Update Coordinator
- 
-
-Team Coordination:
-   - Kanban Board Updates:  Takeshi
-   - Meeting Schedule Coordinator
-       - Look up scheduling software
-    
-
-Data Managing:
-  - Feature 
-  # 
-=======
   - Members must come prepared with:
       - Updates on completed work
       - Blockers (if any)
       - Proposed next steps or solutions
       - Requests from team (if any)
   - Unprepared attendance stalls progress — preparation is required for every meeting.
->>>>>>> a887644 (Created a full team charter.)
   
 ---
 
@@ -155,32 +101,9 @@ Data Managing:
   - All review comments must be addressed before merging. 
   - If commits are added after approval, a **re-review must be requested**.
 
-<<<<<<< HEAD
-
->>>>>>> b9b7743 (Notes from initial meeting (10/30))
-
-### Collaboration Policies
-
-<<<<<<< HEAD
-=======
-- **Branching & PRs:** Always create a feature branch named `feat/<name>-short` or `chore/<name>-desc`. Never commit directly to `main`.  
-- **Pull Requests:** All changes must come via PR. Require one peer approval before merging. Link PR to corresponding Jira ticket.  
-- **Code Reviews:** Keep reviews constructive. Resolve reviewer comments before merging. If changes are made after approval, request a re-review.  
-- **Merge Rule:**
-    - No one may merge their own PR.
-    - All technical PRs require approval from at least one person *other than the author*.
-- **Definition of Done:** Code is documented, tested (if applicable), data transformations recorded, and PR approved. The notebook or script must run from top to bottom.  
-- **Decision-making:** Use majority vote for technical choices.
-- **Technical Decision Rule:** All technical decisions must be approved by at least 2 of:
-    - Esther (Data & Modeling Lead)
-    - Takeshi (Technical Planning & Board Lead)
-    - Chris (Data Implementation Lead)
-    - **No individual may make unilateral technical decisions.**
-=======
 ---
 
 ### Definition of Done (for all tasks)
->>>>>>> a887644 (Created a full team charter.)
 
 A task is “Done” when it is:
 
@@ -205,86 +128,7 @@ A task is “Done” when it is:
 
 ---
 
-<<<<<<< HEAD
-#############################################################################
-INSTRUCTIONS/ TEAMMATE NOTES:
-#############################################################################
-
-Specify your collaboration policies here  -- your decision-making process (e.g., majority vote tech choices, consensus deliverables), WIP limits/person, Definition of Done (e.g., documented, peer-reviewed, reproducible), who reviews the work, etc.
-
-
->>>>>>> 5153371 (More notes on team roles, added to collaboration policies, communication, and rituals sections)
-Decisions will be made by majority vote.
-#############################################################################
-
-### Communication means and cadence
-
-<<<<<<< HEAD
-=======
-
-Communication Channels & Cadence
-
-  - **Primary:** Discord for quick communication -> Sent to phone/checked often
-  - **Task Tracking:** Jira for all assignments -> Checked Daily
-  - **Code Review:** GitHub Pull Requests -> Notification w/ quick turnaround
-  - **Sync Meetings:** 1–2 weekly stand-ups (10 minutes) + milestone planning check-in
-
-
-
-
-
-#############################################################################
-INSTRUCTIONS/ TEAMMATE NOTES:
-#############################################################################
-
-Be explicit about how you plan on communicating
-
->>>>>>> 5153371 (More notes on team roles, added to collaboration policies, communication, and rituals sections)
-Weekly communication for check-ins, as well as weekly meet-ups in person. Discord for virtual discussions/issues.
-#############################################################################
-
-
-
-
-### Performance metrics
-
-<<<<<<< HEAD
-=======
-#############################################################################
-INSTRUCTIONS/ TEAMMATE NOTES:
-#############################################################################
-
-Propose 3-5 performance metrics you plan on using to assess if changes need to be made.
-
->>>>>>> 5153371 (More notes on team roles, added to collaboration policies, communication, and rituals sections)
-Runnable code, repeatable solutions, well commented, peer-reviewed.
-#############################################################################
-
-
-
-
-### Completion Rituals
-
-<<<<<<< HEAD
-=======
-  - PR merge announcements in Discord
-  - Kanban screenshot captured at major milestones
-
-
-#############################################################################
-INSTRUCTIONS/ TEAMMATE NOTES:
-#############################################################################
-
-How will you celebrate tasks completed? 
-
->>>>>>> 5153371 (More notes on team roles, added to collaboration policies, communication, and rituals sections)
-Take a shot (of anything).
-#############################################################################
-
-
-=======
 ### Completion Ritual
->>>>>>> a887644 (Created a full team charter.)
 
   - PR merge announcements posted in Discord 
   - Milestone progress summarized and celebrated in team chat
@@ -379,8 +223,8 @@ The Kanban board helped translate high-level project goals into visible, trackab
 3. **What’s one improvement you would apply in a real consulting project?**  
 In a real consulting setting, I would allocate more up-front time for structured onboarding around collaboration workflows (Git branching, pull requests, reviews, task breakdowns, and board standards). Establishing shared expectations with guided practice early on would help teams operate more efficiently and reduce friction during execution. I would also prioritize aligning on clear goals, success criteria, and operating norms from the start to momentum aligned throughout the project.
 
-
 **CHRIS:**
+
 1. **What was your role and what did you learn about team coordination?**
 My role we decided on was Data Processing + Feature Work + Backend Support. Through discussing this with my team, I learned more about how people's strengths and skills influenced their roles within tasks that the team coordinates on.
 
@@ -401,6 +245,7 @@ The Kanban system helped us organize and see all tasks clearly, which made it ea
 
 3. **What’s one improvement you would apply in a real consulting project?**  
 In a real project, I would improve early data planning and make sure everyone understands the analysis steps.
+
 ------------------------------------------------------------------------
 
 ### Current Kanban Board (Temporary)
@@ -408,3 +253,8 @@ In a real project, I would improve early data planning and make sure everyone un
 ![Kanban Board - Temporary](images/KanbanBoard_TempImage.png)
 
 **This is a temporary placeholder. The final board image will replace this before submission.**
+
+
+
+
+
